@@ -2,7 +2,14 @@
 using System.ComponentModel.DataAnnotations;
 
 namespace MVC_EF_Start.Models
-{
+{ 
+  public class Person
+    {
+        public int id { get; set; }
+        public string FirstName { get; set; }
+        public string LastName{ get; set; }
+
+    }
   public class Company
   {
     [Key]
